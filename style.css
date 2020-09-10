@@ -63,7 +63,7 @@ a {
 } 
 
 .container-main-info-section {
-    height: calc(100vh - 81.6px);
+    height: 550px;
     padding-left: 20px;
 }
 
@@ -141,7 +141,7 @@ span.m-left {
 }
 
 .about {
-    height:100vh;
+    height:500px;
     margin-top: 100px;
 }
 
@@ -193,6 +193,7 @@ a.about-me-info p {
     text-align: right;
     font-size: 10rem;
     opacity: .1;
+    height: 500px;
 }
 
 .skills.info {
@@ -217,10 +218,48 @@ a.about-me-info p {
 div[class^='tag-'] {
     clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0% 50%, 0% 0%);
     width: 120px;
-    height: 30%;
+    height: 30px;
     background-color: aqua;
     margin-right: 30px;
 }
+
+div[class^='tag-'] p {
+    color: #fff;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 1.1rem;
+    padding-top: 3px;
+}
+
+.skills-icons {
+    text-align: center;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top:50px;
+    padding-bottom:65px;
+
+}
+
+.skills-icons p {
+   padding-bottom: 20px;
+}
+
+.skills-icons .row {
+  display: inline-flex;
+}
+
+.icon i {
+    font-size: 100px;
+    display: inline-block;
+    margin-right: 105px;
+    position: relative;
+    text-align: center;
+    top: 2px;
+    width: 30px;
+    padding: 16px 0;
+    color: #ed5565;
+
+
 
 
 
