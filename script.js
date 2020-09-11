@@ -1,0 +1,1 @@
+const spans = document.querySelector
